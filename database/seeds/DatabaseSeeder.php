@@ -14,11 +14,12 @@ class DatabaseSeeder extends Seeder
         // $this->call(UserSeeder::class);
         factory(\App\User::class, 10)->create();
 
-        factory(App\Category::class, 20)->create()->each(function ($category) {
-            for ($i = 0; $i < random_int(1, 5); $i++) {
-                // print_r(factory(App\Post::class)->make()->toArray());
-                $category->posts()->save(factory(App\Post::class)->make());
-            }
+        factory(App\Category::class, 50)->create()->each(function ($category) {
+            $posts = factory(App\Post::class, random_int(2, 8))->make();
+
+            print_r($posts->toArray());
+
+            $category->posts()->saveMany($posts);
         });
     }
 }

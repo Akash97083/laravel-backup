@@ -5,7 +5,9 @@ namespace App\Providers;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Event;
+use Spatie\Backup\Events\CleanupWasSuccessful;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -29,6 +31,12 @@ class EventServiceProvider extends ServiceProvider
     {
         parent::boot();
 
-        //
+        Event::listen(function (CleanupWasSuccessful $event) {
+            $disk_name = $event->backupDestination->diskName();
+
+            if ($disk_name == 'google') {
+                Artisan::call('backup:run');
+            }
+        });
     }
 }

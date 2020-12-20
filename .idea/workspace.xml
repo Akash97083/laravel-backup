@@ -2,38 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55cd7e96-a482-40ff-b82c-5d7fa7e6be97" name="Default Changelist" comment="seeding improve">
-      <change afterPath="$PROJECT_DIR$/app/Providers/GoogleDriveServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/backup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ar/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/cs/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/da/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/de/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/en/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/es/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fa/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fi/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/fr/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/hi/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/id/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/it/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ja/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/nl/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/pl/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/pt-BR/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/pt/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ro/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/ru/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/tr/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/uk/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/zh-CN/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backup/zh-TW/notifications.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/backup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +142,7 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem-cached-adapter" />
       <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lJYmYIl87fXa7yOm3CrURNb1IG" />
@@ -186,12 +163,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../whmcs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom File Colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -222,6 +204,8 @@
       <workItem from="1607322073214" duration="70000" />
       <workItem from="1607494821974" duration="630000" />
       <workItem from="1608350778380" duration="10885000" />
+      <workItem from="1608387786244" duration="8419000" />
+      <workItem from="1608444367657" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="Project add to git">
       <created>1607322112703</created>
